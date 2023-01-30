@@ -31,7 +31,7 @@ input("Please hold the boot select button and connect the pico. (Make sure you a
 
 sleep(5)
 
-print("Formating pico...")
+print("Formatting pico...")
 os.system("cp src/format.uf2 /Volumes/RPI-RP2/ ")
 
 sleep(20)
@@ -61,7 +61,7 @@ if file == 1:
     print("Transfered Reverse Shell")
 elif file == 2:
     os.system("cp src/scripts/antivaitusoff.dd /Volumes/CIRCUITPY/payload.dd")
-    print("Transfered Turn off Antivairus")
+    print("Transfered Turn off Antivirus")
 elif file == 3:
     input("Please modify src/scripts/extractor.dd to your needs then press enter...")
     os.system("cp src/scripts/extractor.dd /Volumes/CIRCUITPY/payload.dd")
@@ -79,12 +79,12 @@ elif file == 5:
 elif file == 6:
     input("Create your custom file src/scripts/custom.dd and press enter...")
     os.system("cp src/scripts/custom.dd /Volumes/CIRCUITPY/payload.dd")
-    print("Transfered custom file.\n")
+    print("Transferred custom file.\n")
 else:
     exit("Wrong number please rerun the script...")
 
 
-print("Your pico is ready to go but please do not use this for mailicious purposes...")
+print("Your pico is ready to go! Please do not use this for mailicious purposes...")
 sleep(0.5)
 exit("Bye!")
 
