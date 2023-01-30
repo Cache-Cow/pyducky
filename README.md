@@ -4,7 +4,7 @@
 
 In order to use this tool you must have
 your pico mounted in ```/media/YOURUSER/PICONAME``` 
-for linux and in windows you must know the disk letter.
+for linux and in windows you must know the disk letter of the pico.
 
 # To run the script:
 
