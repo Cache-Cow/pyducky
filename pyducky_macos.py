@@ -71,7 +71,7 @@ elif file == 4:
     if oneortwo == 1:
         os.system("cp src/scripts/rickrollcomp.dd /Volumes/CIRCUITPY/payload.dd")
     elif oneortwo == 2:
-        os.system("cp src/scripts/rickrollsimple.dd /Volumes/CIRCUITPY/payload.dd")
+        os.system("cp src/scripts/macrickrollsimple.dd /Volumes/CIRCUITPY/payload.dd")
     print("Tranfered Rickroll\n")
 elif file == 5:
     os.system("cp src/scripts/machacked.dd /Volumes/CIRCUITPY/payload.dd")
