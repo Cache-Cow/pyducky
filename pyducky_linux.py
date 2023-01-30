@@ -17,7 +17,7 @@ print("Welcome to the pyducky script, please choose a program: \n")
 
 #Get the required instructions
 
-print("1) Reverse Shell\t 2) Turn off antivairus")
+print("1) Reverse Shell\t 2) Turn off Anti-Virus")
 print("3) Wifi Extractor\t 4) Rickroll")
 print("5) Hacked Message\t 6) Custom\n")
 
@@ -25,26 +25,12 @@ file = int(input("Please type a number and press enter: "))
 
 print("")
 
-#Preparing the pico
+#Preparing the pico / Edited for lab environment
 
-input("Please hold the boot select button and connect the pico. Press enter when it shows up...")
-
-sleep(5)
+input("Please hold the boot select button and connect the pico, also make sure you are in the Downloads/pyducky-main/ folder. Press enter when it shows up...")
 
 
 sleep(20)
-
-print("Copying libraries...")
-os.system("cp -r src/lib/adafruit_hid /media/$USER/CIRCUITPY/lib/")
-
-sleep(10)
-
-print("Copying main program...")
-os.system("cp src/code.py /media/$USER/CIRCUITPY/code.py")
-
-sleep(2)
-
-print("Preparation done!\n")
 
 #Flashing the right program
 
@@ -54,7 +40,7 @@ if file == 1:
     print("Transfered Reverse Shell")
 elif file == 2:
     os.system("cp src/scripts/antivaitusoff.dd /media/$USER/CIRCUITPY/payload.dd")
-    print("Transfered Turn off Antivairus")
+    print("Transfered Turn off Anti-Virus")
 elif file == 3:
     input("Please modify src/scripts/extractor.dd to your needs then press enter...")
     os.system("cp src/scripts/extractor.dd /media/$USER/CIRCUITPY/payload.dd")
@@ -72,12 +58,12 @@ elif file == 5:
 elif file == 6:
     input("Create your custom file src/scripts/custom.dd and press enter...")
     os.system("cp src/scripts/custom.dd /media/$USER/CIRCUITPY/payload.dd")
-    print("Transfered custm file.\n")
+    print("Transfered custom file.\n")
 else:
     exit("Wrong number please rerun the script...")
 
 
-print("Your pico is ready to go but please do not use this for mailicious purposes...")
+print("Your pico is ready to go! Please do not use this for mailicious purposes...")
 sleep(0.5)
 exit("Bye!")
     
