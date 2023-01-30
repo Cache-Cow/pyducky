@@ -74,7 +74,7 @@ elif file == 4:
         os.system("cp src/scripts/rickrollsimple.dd /Volumes/CIRCUITPY/payload.dd")
     print("Tranfered Rickroll\n")
 elif file == 5:
-    os.system("cp src/scripts/hacked.dd /Volumes/CIRCUITPY/payload.dd")
+    os.system("cp src/scripts/machacked.dd /Volumes/CIRCUITPY/payload.dd")
     print("Transfered Hacked Message\n")
 elif file == 6:
     input("Create your custom file src/scripts/custom.dd and press enter...")
