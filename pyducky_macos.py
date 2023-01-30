@@ -18,8 +18,8 @@ print("Welcome to the pyducky script, please choose a program: \n")
 #Get the required instructions
 
 print("1) Reverse Shell\t 2) Turn off Anti-Virus")
-print("3) Wifi Extractor\t 4) Rickroll")
-print("5) Hacked Message\t 6) Custom\n")
+print("3) Wifi Extractor\t 4) Rickroll (Mac Functionality)")
+print("5) Hacked Message (Mac Functionality)\t 6) Custom\n")
 
 file = int(input("Please type a number and press enter: "))
 
@@ -67,7 +67,7 @@ elif file == 3:
     os.system("cp src/scripts/extractor.dd /Volumes/CIRCUITPY/payload.dd")
     print("Transfered Wifi Extractor\n")
 elif file == 4:
-    oneortwo = int(input("Please select 1 for complicated or 2 for simple: "))
+    oneortwo = int(input("Please select 1 for complicated or 2 for simple: (Note: Only option 2 has MacOS Terminal Functionality)"))
     if oneortwo == 1:
         os.system("cp src/scripts/rickrollcomp.dd /Volumes/CIRCUITPY/payload.dd")
     elif oneortwo == 2:
