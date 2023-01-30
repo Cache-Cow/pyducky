@@ -12,7 +12,7 @@ print("Welcome to the pyducky script, please choose a program: \n")
 
 #Get the required instructions
 
-print("1) Reverse Shell\t 2) Turn off antivairus")
+print("1) Reverse Shell\t 2) Turn off Anti-Virus")
 
 print("3) Wifi Extractor\t 4) Rickroll")
 
@@ -20,7 +20,7 @@ print("5) Hacked Message\t 6) Custom\n")
 
 file = int(input("Please type a number and press enter: "))
 
-print("hola")
+print("Got it...")
 
 #Preparing the pico
 
@@ -32,11 +32,11 @@ sleep(5)
 
 letter = input("Please enter the drive letter: ")
 
-print("Letter good")
+print("Letter good: Formatting Your Pico")
 
 sleep(2)
 
-print("Formating pico...")
+print("Formatting...")
 
 os.system(f"copy src\\format.uf2 {letter}:\ ")
 
@@ -77,7 +77,7 @@ elif file == 2:
 
     os.system(f"copy src\scripts\\antivaitusoff.dd {letter}:\payload.dd")
 
-    print("Transfered Turn off Antivairus")
+    print("Transferred Turn off Anti-virus")
 
 elif file == 3:
 
@@ -109,17 +109,17 @@ elif file == 5:
 
 elif file == 6:
 
-    input("Create your custom file src\scripts\custom.dd and press enter...")
+    input("Create your custom file src\scripts\custom.dd (Found in download folder) and press enter...")
 
     os.system(f"copy src\scripts\custom.dd {letter}:\payload.dd")
 
-    print("Transfered custm file.\n ")
+    print("Transfered Custom File.\n ")
 
 else:
 
     exit("Wrong number please rerun the script...")
 
-print("Your pico is ready to go but please do not use this for mailicious purposes...")
+print("Your pico is ready to go! Please do not use this for mailicious purposes...")
 
 sleep(0.5)
 
