@@ -16,6 +16,10 @@ Windows:
 
 ```$ python3 pyducky_windows.py```
 
+MacOS: 
+
+'''$ python3 pyducky_macos.py'''
+
 For Stealth: 
 '''In order to make your pico not show up as a USB drive, and thus skip being scanned by anti-virus, drop the "boot.py" file supplied into the root folder of the Pico'''
 # Notice
