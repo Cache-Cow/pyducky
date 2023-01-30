@@ -1,0 +1,9 @@
+REM The next four lines open terminal on MacOS and type "You have been hacked"
+DELAY 1000
+GUI SPACE
+DELAY 100
+STRING terminal
+DELAY 100
+ENTER
+DELAY 400
+STRING You have been hacked!!!
