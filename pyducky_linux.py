@@ -31,13 +31,6 @@ input("Please hold the boot select button and connect the pico. Press enter when
 
 sleep(5)
 
-print("Formating pico...")
-os.system("cp src/format.uf2 /media/$USER/RPI-RP2/ ")
-
-sleep(20)
-
-print("Flashing circuit python...")
-os.system("cp src/circuit_python.uf2 /media/$USER/RPI-RP2/ ")
 
 sleep(20)
 
