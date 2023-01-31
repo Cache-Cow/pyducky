@@ -2,6 +2,6 @@ PEM Rickroll in a browser
 DELAY 1000
 GUI r
 DELAY 200
-STRING cmd.exe /c start msedge https://www.youtube.com/watch?v=dQw4w9WgXcQ&loop=1
+STRING cmd.exe /c start chrome https://www.youtube.com/watch?v=a3Z7zEc7AXQ
 DELAY 100
 ENTER
