@@ -31,7 +31,7 @@ input("Please hold the boot select button and connect the pico. (Make sure you a
 
 sleep(5)
 
-print("Formating pico...")
+print("Formatting pico...")
 os.system("cp src/format.uf2 /media/$USER/RPI-RP2/ ")
 
 sleep(20)
