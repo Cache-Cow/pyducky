@@ -2,6 +2,7 @@ PEM Rickroll in a browser
 DELAY 1000
 GUI r
 DELAY 200
-STRING cmd.exe /c start chrome https://www.youtube.com/watch?v=a3Z7zEc7AXQ
-DELAY 100
+STRING chrome -k https://www.youtube.com/watch?v=a3Z7zEc7AXQ
 ENTER
+DELAY 2000
+f
