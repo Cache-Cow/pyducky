@@ -25,4 +25,4 @@ For Stealth:
 # Notice
 
 Please use this tool for educational purposes
-only.**Do not use this tool for _malicious_ purposes.**
+only. **Do not use this tool for _malicious_ purposes.**
