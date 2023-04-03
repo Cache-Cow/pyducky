@@ -1,6 +1,6 @@
 
 
-# PyDucky Script
+# PyDucky Creator Script
 
 In order to use this tool you must have
 your pico mounted in ```/media/YOURUSER/PICONAME``` 
